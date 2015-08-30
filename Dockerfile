@@ -1,5 +1,7 @@
 FROM debian:jessie
 
+MAINTAINER seg@seg.gy
+
 RUN buildDeps='curl ca-certificates' \
         && set -x \
         && apt-get update && apt-get install -y $buildDeps --no-install-recommends
