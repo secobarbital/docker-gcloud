@@ -19,4 +19,5 @@ RUN buildDeps='curl ca-certificates' \
 
 RUN ln -s /usr/bin/python2.7 /usr/local/bin/python
 
-CMD [ "bash" ]
+ENTRYPOINT ["/usr/bin/gcloud"]
+CMD ["--help"]
