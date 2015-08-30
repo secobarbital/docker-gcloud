@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER seg@seg.gy
+MAINTAINER Seggy Umboh <seg@seg.gy>
 
 RUN buildDeps='curl ca-certificates' \
         && set -x \
